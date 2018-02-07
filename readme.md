@@ -2,10 +2,20 @@
 
 ## Usage
 ```js
-<tabs></tabs>
+<tabs :options="tabsConfig" v-model="activeTab">
+    <tab title="First Tab">
+        First Tab Content
+    </tab>
+    <tab title="Second Tab">
+        Secont Tab Content
+    </tab>
+    <tab title="Third Tab">
+        Third Tab Content
+    </tab>
+</tabs>
 ```
 
-## Developing
+## Development
 Run `npm install` to install all dev dependencies.
 
 Here is available npm commands.
